@@ -1,63 +1,138 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<rss_items>
-    <item>
-        <title>Samsung lanzará sus gafas inteligentes XR con chip AR1 de Qualcomm, cámara de 12MP y batería de 155 mAh en 2025</title>
-        <pubDate>Mon, 18 Nov 2024 14:00:15 GMT</pubDate>
-        <author/>
-        <link>https://www.europapress.es/portaltic/gadgets/noticia-samsung-lanzara-gafas-inteligentes-xr-chip-ar1-qualcomm-camara-12mp-bateria-155-mah-2025-20241118150015.html</link>
-    </item>
-    <item>
-        <title>Cort arranca la semana global del emprendimiento con una charla sobre las oportunidades de la inteligencia artifical</title>
-        <pubDate>Mon, 18 Nov 2024 13:26:25 GMT</pubDate>
-        <author/>
-        <link>https://www.europapress.es/illes-balears/noticia-cort-arranca-semana-global-emprendimiento-charla-oportunidades-inteligencia-artifical-20241118142625.html</link>
-    </item>
-    <item>
-        <title>Samsung promete ahorrar tiempo, espacio y recursos con la lavasecadora Bespoke AI Laundry Combo</title>
-        <pubDate>Mon, 18 Nov 2024 12:16:52 GMT</pubDate>
-        <author/>
-        <link>https://www.europapress.es/portaltic/gadgets/noticia-samsung-promete-ahorrar-tiempo-espacio-recursos-lavasecadora-bespoke-ai-laundry-combo-20241118131652.html</link>
-    </item>
-    <item>
-        <title>Dermatólogos y reumatólogos reclaman un abordaje multidisciplinar de la enfermedad psoriásica</title>
-        <pubDate>Mon, 18 Nov 2024 11:20:13 GMT</pubDate>
-        <author/>
-        <link>https://www.europapress.es/videos/video-dermatologos-reumatologos-reclaman-abordaje-multidisciplinar-enfermedad-psoriasica-20241118122013.html</link>
-    </item>
-    <item>
-        <title>Google ya permite generar imágenes con Gemini en Docs para personalizar los documentos</title>
-        <pubDate>Mon, 18 Nov 2024 10:39:49 GMT</pubDate>
-        <author/>
-        <link>https://www.europapress.es/portaltic/internet/noticia-google-agrega-capacidad-generar-imagenes-gemini-docs-impulsadas-imagen-20241118113949.html</link>
-    </item>
-    <item>
-        <title>Bluesky aclara que no entrena su IA con los datos de los usuarios ni tiene "intención de hacerlo"</title>
-        <pubDate>Mon, 18 Nov 2024 08:57:52 GMT</pubDate>
-        <author/>
-        <link>https://www.europapress.es/portaltic/socialmedia/noticia-bluesky-aclara-no-entrena-ia-datos-usuarios-tiene-intencion-hacerlo-20241118095752.html</link>
-    </item>
-    <item>
-        <title>La catalana Onionlab desarrolla un cubo inmersivo para ofrecer soluciones con IA en interiorismo</title>
-        <pubDate>Sun, 17 Nov 2024 14:05:21 GMT</pubDate>
-        <author/>
-        <link>https://www.europapress.es/catalunya/noticia-catalana-onionlab-desarrolla-cubo-inmersivo-ofrecer-soluciones-ia-interiorismo-20241117150521.html</link>
-    </item>
-    <item>
-        <title>Biden y Xi abogan por impulsar sus relaciones y coinciden en no ceder el control de las armas nucleares a la IA</title>
-        <pubDate>Sun, 17 Nov 2024 01:39:32 GMT</pubDate>
-        <author/>
-        <link>https://www.europapress.es/internacional/noticia-biden-xi-abogan-impulsar-relaciones-coinciden-no-ceder-control-armas-nucleares-ia-20241117023932.html</link>
-    </item>
-    <item>
-        <title>Huawei mantiene que la innovación en las TIC y la inteligencia aceleran la transformación digital de Europa</title>
-        <pubDate>Fri, 15 Nov 2024 15:41:00 GMT</pubDate>
-        <author/>
-        <link>https://www.europapress.es/portaltic/empresas/noticia-huawei-mantiene-innovacion-tic-inteligencia-aceleran-transformacion-digital-europa-20241115164100.html</link>
-    </item>
-    <item>
-        <title>Aedas Homes pone en marcha dos agentes de IA para potenciar el talento humano</title>
-        <pubDate>Fri, 15 Nov 2024 13:08:24 GMT</pubDate>
-        <author/>
-        <link>https://www.europapress.es/economia/noticia-aedas-homes-pone-marcha-dos-agentes-ia-potenciar-talento-humano-20241115140824.html</link>
-    </item>
-</rss_items>
+<noticias>
+    <noticia>
+        <title>Ingeniero de Software Reacciona a Hackeos de Películas</title>
+        <pubDate/>
+        <author>
+   Pelado Nerd
+   https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g
+  </author>
+        <link/>
+    </noticia>
+    <noticia>
+        <title>Fabric - Esta herramienta IA me voló la cabeza</title>
+        <pubDate/>
+        <author>
+   Pelado Nerd
+   https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g
+  </author>
+        <link/>
+    </noticia>
+    <noticia>
+        <title>SADSERVERS / Hong Kong - PostgreSQL endemoniado</title>
+        <pubDate/>
+        <author>
+   Pelado Nerd
+   https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g
+  </author>
+        <link/>
+    </noticia>
+    <noticia>
+        <title>Qué pasó con el cartel de EL DOPOSITO?</title>
+        <pubDate/>
+        <author>
+   Pelado Nerd
+   https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g
+  </author>
+        <link/>
+    </noticia>
+    <noticia>
+        <title>10 años de Kubernetes</title>
+        <pubDate/>
+        <author>
+   Pelado Nerd
+   https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g
+  </author>
+        <link/>
+    </noticia>
+    <noticia>
+        <title>SADSERVERS / Monaco - Password oculta</title>
+        <pubDate/>
+        <author>
+   Pelado Nerd
+   https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g
+  </author>
+        <link/>
+    </noticia>
+    <noticia>
+        <title>EL DOPOSITO #tech #nginx</title>
+        <pubDate/>
+        <author>
+   Pelado Nerd
+   https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g
+  </author>
+        <link/>
+    </noticia>
+    <noticia>
+        <title>TUVE que arreglar esto</title>
+        <pubDate/>
+        <author>
+   Pelado Nerd
+   https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g
+  </author>
+        <link/>
+    </noticia>
+    <noticia>
+        <title>Cyclops para Kubernetes</title>
+        <pubDate/>
+        <author>
+   Pelado Nerd
+   https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g
+  </author>
+        <link/>
+    </noticia>
+    <noticia>
+        <title>Resolviendo un Error Inexplicable: La Historia del EXPERTO que salvó una empresa</title>
+        <pubDate/>
+        <author>
+   Pelado Nerd
+   https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g
+  </author>
+        <link/>
+    </noticia>
+    <noticia>
+        <title>SADSERVERS / Pokhara - Problema con SSH</title>
+        <pubDate/>
+        <author>
+   Pelado Nerd
+   https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g
+  </author>
+        <link/>
+    </noticia>
+    <noticia>
+        <title>Se viene Nerdearla 2024</title>
+        <pubDate/>
+        <author>
+   Pelado Nerd
+   https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g
+  </author>
+        <link/>
+    </noticia>
+    <noticia>
+        <title>El incidente de Crowdstrike de Julio 2024</title>
+        <pubDate/>
+        <author>
+   Pelado Nerd
+   https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g
+  </author>
+        <link/>
+    </noticia>
+    <noticia>
+        <title>Me eché solo</title>
+        <pubDate/>
+        <author>
+   Pelado Nerd
+   https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g
+  </author>
+        <link/>
+    </noticia>
+    <noticia>
+        <title>La historia de la app CARA es interesante</title>
+        <pubDate/>
+        <author>
+   Pelado Nerd
+   https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g
+  </author>
+        <link/>
+    </noticia>
+</noticias>

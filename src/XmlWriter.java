@@ -8,7 +8,14 @@ import java.io.File;
 import java.util.List;
 
 public class XmlWriter {
+    /*
+    * Metodo que recibe la lista de noticias del rss y lo escribe en el nuevo documento xml
+    *Parametros:
+    * noticias La lista de noticias recuperada del rss
+    * fileName nombre del archivo en el que se escribiran los datos
+    * */
     public void writeRssItemsToXml(List<Noticia> noticias, String fileName) throws Exception {
+        
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document document = builder.newDocument();
@@ -19,14 +26,14 @@ public class XmlWriter {
 
         // Añadir elementos
         for (Noticia noticia : noticias) {
-            Element itemElement = document.createElement("noticia");
+            Element nodoNoticia = document.createElement("noticia");
 
-            appendChildWithText(document, itemElement, "title", noticia.getTitle());
-            appendChildWithText(document, itemElement, "pubDate", noticia.getPubDate());
-            appendChildWithText(document, itemElement, "author", noticia.getAuthor());
-            appendChildWithText(document, itemElement, "link", noticia.getLink());
+            appendChildWithText(document, nodoNoticia, "titulo", noticia.getTitulo());
+            appendChildWithText(document, nodoNoticia, "fechaPub", noticia.getFechaPub());
+            appendChildWithText(document, nodoNoticia, "autor", noticia.getAutor());
+            appendChildWithText(document, nodoNoticia, "link", noticia.getLink());
 
-            root.appendChild(itemElement);
+            root.appendChild(nodoNoticia);
         }
 
         // Escribir el archivo
@@ -38,6 +45,15 @@ public class XmlWriter {
         transformer.transform(source, result);
     }
 
+
+    /*
+    Metodo que añade un nodo al xml
+    Parametros:
+        document Documento al que se añade el nodo
+        parent El nodo padre al que se añada el nuevo nodo
+        tagName El nombre del nodo a añadir
+        textContent el texto del nodo
+    */
     private void appendChildWithText(Document document, Element parent, String tagName, String textContent) {
         Element child = document.createElement(tagName);
         child.setTextContent(textContent);

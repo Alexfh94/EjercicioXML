@@ -1,32 +1,43 @@
 public class Noticia {
-    private String title;
-    private String pubDate;
-    private String author;
+    private String titulo;
+    private String fechaPub;
+    private String autor;
     private String link;
 
+
+    public Noticia() {
+    }
+
+    public Noticia(String titulo, String fechaPub, String autor, String link) {
+        this.titulo = titulo;
+        this.fechaPub = fechaPub;
+        this.autor = autor;
+        this.link = link;
+    }
+
     // Getters y setters
-    public String getTitle() {
-        return title;
+    public String getTitulo() {
+        return titulo;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
     }
 
-    public String getPubDate() {
-        return pubDate;
+    public String getFechaPub() {
+        return fechaPub;
     }
 
-    public void setPubDate(String pubDate) {
-        this.pubDate = pubDate;
+    public void setFechaPub(String fechaPub) {
+        this.fechaPub = fechaPub;
     }
 
-    public String getAuthor() {
-        return author;
+    public String getAutor() {
+        return autor;
     }
 
-    public void setAuthor(String author) {
-        this.author = author;
+    public void setAutor(String autor) {
+        this.autor = autor;
     }
 
     public String getLink() {
@@ -39,6 +50,6 @@ public class Noticia {
 
     @Override
     public String toString() {
-        return "Título: " + title + "\nFecha: " + pubDate + "\nAutor: " + author + "\nEnlace: " + link + "\n";
+        return "Título: " + titulo + "\nFecha: " + fechaPub + "\nAutor: " + autor + "\nEnlace: " + link + "\n";
     }
 }
