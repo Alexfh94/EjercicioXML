@@ -39,7 +39,10 @@ public class XmlWriter {
         // Escribir el archivo
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
         Transformer transformer = transformerFactory.newTransformer();
-        transformer.setOutputProperty(OutputKeys.INDENT, "yes"); //Configura el transformador para que formatee el XML con sangrías (opción "yes").
+        // Configurar UTF-8 y sangrías
+        transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8"); // Configuración de UTF-8
+        transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+        transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2"); // Configuración de la cantidad de espacio para indentación
         DOMSource source = new DOMSource(document);
         StreamResult result = new StreamResult(new File(fileName));
         transformer.transform(source, result);
