@@ -1,7 +1,16 @@
+import java.io.PrintStream;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        // Configurar la consola para UTF-8
+        try {
+            System.setOut(new PrintStream(System.out, true, StandardCharsets.UTF_8.name()));
+        } catch (Exception e) {
+            System.err.println("No se pudo configurar UTF-8 para la consola: " + e.getMessage());
+        }
+
         String rssUrl = "https://www.europapress.es/rss/rss.aspx?buscar=inteligencia-artificial";
 
         try {
